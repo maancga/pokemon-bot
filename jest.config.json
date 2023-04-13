@@ -1,6 +1,6 @@
 {
   "moduleFileExtensions": ["js", "ts"],
-  "roots": ["src", "e2e-tests"],
+  "roots": ["src", "api"],
   "testRegex": ".*\\.spec|.e2e-spec\\.ts$",
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"

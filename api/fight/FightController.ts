@@ -1,6 +1,11 @@
-import { Controller } from '@nestjs/common'
+import { Controller, Get } from '@nestjs/common'
 
 @Controller({
   path: 'fight'
 })
-export class FightController {}
+export class FightController {
+  @Get('start')
+  startFight() {
+    return { id: 'some id' }
+  }
+}
